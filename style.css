@@ -1,0 +1,63 @@
+
+body {padding: 0;margin: 0;color: #fff;background-color: #131d24; font-family: 'zq';}
+@font-face {font-family: "bold";src: url('../fonts/bold.ttf');}
+@font-face {font-family: 'zq';src: url('../fonts/zq.ttf');}
+header {
+  padding: 10px;
+  background-color: #008DCD;
+  height: ;
+  position: absolute;
+  display: ;
+  width: 98%;
+}
+section {
+  background-color: #1E1F22;
+  padding: 10px;
+  height: 88vh;
+  overflow-y: auto;
+}
+header > p {
+  color: orange;
+  text-decoration: underline;
+}
+.display {
+  margin-top: 5vh;
+  background-color: #0D1419;
+  border-radius: 20px;
+  padding: 0 15px 15px 15px;
+}
+.display > p {
+  color: orange;
+  width: 103.5%;
+  display: block;
+  border-radius: 20px 20px 0 0;
+  padding: 8px;
+  margin-left: -15px;
+  background-color: #131f32;
+  font-family: 'bold';
+  font-size: 1.4rem;
+}
+footer {
+  text-align: center;
+  font-size: 0.6rem;
+  color: #8D98ff;
+  padding: 20px;
+  
+}
+footer a {
+  color: skyblue;
+}
+.navs {
+  height: 3vh;
+  padding: 5px;
+  border-radius: 10px;
+  height: 6vh;
+  background-color: skyblue;
+  margin-top: -23px;
+  color: slateblue;
+  text-decoration: underline;
+  width: 94%;
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
